@@ -35,8 +35,8 @@ max-width:450px;
 
     
 <style>
-	@import "/js/dojo/1.1/dojox/grid/_grid/Grid.css";
-	@import "/js/dojo/1.1/dojox/grid/_grid/tundraGrid.css";
+	@import "/js/dojo/1.1.2/dojox/grid/_grid/Grid.css";
+	@import "/js/dojo/1.1.2/dojox/grid/_grid/tundraGrid.css";
 	body {
 		font-family: Tahoma, Arial, Helvetica, sans-serif;
 		font-size: 11px;
