@@ -205,7 +205,8 @@ class AdminhelperController
     		defs = allDefs
     	} else if (filterType == 'type') {
     		allDefs.each{
-           		def protoEid = it.appdefType + ':' + it.resource.prototype.valueObject.instanceId
+           		// def protoEid = it.appdefType + ':' + it.resource.prototype.valueObject.instanceId
+           		def protoEid = '' 
            		if(protoEid == resourceSelect)
            			defs << it
     		}
